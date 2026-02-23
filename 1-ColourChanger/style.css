@@ -20,11 +20,28 @@ span {
   color: orange;
 }
 
-.button {
+.button{
+  cursor: pointer;
   width: 100px;
   height: 100px;
   border: solid orange 2px;
   display: inline-block;
+}
+
+.button2 {
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 8px;
+  color: orange;
+  text-decoration: none;
+  border: 2px solid orange;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.button2:hover {
+  background-color: red;
+  color: white;
 }
 
 #grey {
