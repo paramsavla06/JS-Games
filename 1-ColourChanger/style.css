@@ -30,7 +30,6 @@ span {
 #grey {
   background: grey;
 }
-
 #black {
   background: black;
 }
@@ -39,4 +38,7 @@ span {
 }
 #yellow {
   background: yellow;
+}
+#purple {
+  background: purple;
 }
